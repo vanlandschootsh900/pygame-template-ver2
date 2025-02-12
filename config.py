@@ -13,3 +13,7 @@ WINDOW_HEIGHT = 600
 
 # Frame rate (frames per second)
 FPS = 60
+
+# title
+
+TITLE ='pygame template'

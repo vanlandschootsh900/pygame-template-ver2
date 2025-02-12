@@ -1,3 +1,5 @@
+#Shay VanLandschoot
+#--DATE--#
 # Pygame game template
 
 import pygame
@@ -5,6 +7,7 @@ import sys
 import config # Import the config module
 
 def init_game ():
+
     pygame.init()
     screen = pygame.display.set_mode((config.WINDOW_WIDTH, config.WINDOW_HEIGHT)) 
 # Use constants from config
@@ -23,15 +26,15 @@ def handle_events ():
 
 def main():
     screen = init_game()
-    clock = pygame.time.Clock() # Initialize the clock here
+    clock = pygame.time.Clock()
     running = True
     while running:
         running = handle_events()
-        screen.fill(config.WHITE) # Use color from config
+        screen.fill(config.PURPLE) # Use color from config
         pygame.display.flip()
 
         # Limit the frame rate to the specified frames per second (FPS)
-        clock.tick(config.FPS) # Use the clock to control the frame rate
+        clock.tick(config.FPS)
 
     pygame.quit()
     sys.exit()

@@ -7,6 +7,7 @@ RED = (255, 0, 0)
 GREEN = (0, 255, 0)
 BLUE = (0, 0, 255)
 PURPLE = (255, 0 , 255)
+GRAY = (128,128,128)
 # Game window dimensions
 WINDOW_WIDTH = 800
 WINDOW_HEIGHT = 600
@@ -14,6 +15,6 @@ WINDOW_HEIGHT = 600
 # Frame rate (frames per second)
 FPS = 60
 
-# title
 
+# title
 TITLE ='pygame template'

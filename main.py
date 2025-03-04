@@ -10,7 +10,7 @@ def init_game ():
 
     pygame.init()
     screen = pygame.display.set_mode((config.WINDOW_WIDTH, config.WINDOW_HEIGHT)) 
-# Use constants from config
+   
     
     pygame.display.set_caption(config.TITLE)
     return screen
@@ -25,14 +25,28 @@ def handle_events ():
     return True
 
 def main():
+    
     screen = init_game()
     clock = pygame.time.Clock()
+
+
+    
     running = True
     while running:
         running = handle_events()
         screen.fill(config.GRAY) # Use color from config
-        pygame.display.flip()
+        
+        # Add code to draw stuff (for example) below this comment
 
+
+
+
+
+
+
+
+
+        pygame.display.flip()
         # Limit the frame rate to the specified frames per second (FPS)
         clock.tick(config.FPS)
 

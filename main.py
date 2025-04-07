@@ -30,6 +30,7 @@ def main():
     clock = pygame.time.Clock()
 
 
+    airal = pygame.font.SysFont('airal',55)
     
     running = True
     while running:
